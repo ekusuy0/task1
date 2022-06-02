@@ -11,9 +11,10 @@ header {
 }
 
 main {
-  width: 960px;
+  width: 100%;
   margin: 50px auto;
   display: flex;
+  justify-content: center;
 }
 
 .box {
@@ -68,16 +69,15 @@ footer {
 
 @media screen and (max-width:768px) {
   main {
-    width: 100%;
     display: block;
   }
-  
+
   .box {
     width: 90%;
     margin: 0 5% 20px 5%;
   }
-  
+
   .box:last-child {
     margin: 0px 5%;
   }
-}  
+}
